@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "c60c66d1-2e79-4101-b396-9d159cc44d9f",
+		"name": "Görev-5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37529802"
+	},
+	"item": [
+		{
+			"name": "GetList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7145/api/Articles",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7145",
+					"path": [
+						"api",
+						"Articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateArticle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7145/api/Articles",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7145",
+					"path": [
+						"api",
+						"Articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetArticleById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7145/api/Articles/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7145",
+					"path": [
+						"api",
+						"Articles",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateArticle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7145/api/Articles/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7145",
+					"path": [
+						"api",
+						"Articles",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteArticle",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7145/api/Articles/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7145",
+					"path": [
+						"api",
+						"Articles",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
